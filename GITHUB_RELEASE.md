@@ -5,7 +5,9 @@ The owner authorized GitHub upload after the pilot was completed, on 2026-10-09
 of the frozen pre-run protocol.
 
 - Repository: https://github.com/richardsh3n/mergeable-neural-memory
-- Visibility selected for this upload: **private**.
+- Current visibility: **public**. The owner explicitly authorized public access
+  on 2026-10-09 after the initial private upload; both the repository and release
+  archive are now publicly accessible.
 - Version: **v0.1.0**, a research pilot prerelease, not a peer-reviewed paper.
 - Complete archive: [download from the version page](https://github.com/richardsh3n/mergeable-neural-memory/releases/tag/v0.1.0).
 - Asset: `mergeable-neural-memory-pilot-2026-10-09.zip` (30,971,412 bytes).
