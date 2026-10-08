@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "description": "Small synthetic CPU pilot; learned latent state, not a fact-table inference system.",
+  "dataset": {
+    "n_entities": 6,
+    "n_relations": 2,
+    "two_hop_probability": 0.7,
+    "overlap_probability": 0.3,
+    "missing_probability": 0.2,
+    "update_probability": 0.0,
+    "distractor_retention_probability": 0.85,
+    "max_revision": 1,
+    "max_facts_per_party": 13,
+    "permute_entities_per_episode": true
+  },
+  "architecture": {
+    "n_slots": 12,
+    "state_dim": 24,
+    "embedding_dim": 24,
+    "hidden_dim": 64,
+    "state_dtype": "float32",
+    "pool_scale": 4.0,
+    "reader_steps": 2
+  },
+  "training": {
+    "seeds": [11, 23, 37],
+    "threads": 1,
+    "batch_size": 64,
+    "shared_steps": 1500,
+    "merger_steps": 1000,
+    "learning_rate": 0.003,
+    "merger_learning_rate": 0.002,
+    "weight_decay": 0.0001,
+    "state_consistency_weight": 0.1,
+    "idempotence_weight": 0.0,
+    "intermediate_loss_weight": 0.3,
+    "log_every": 100,
+    "shared_pool_training": ["sum_full", "sum_split", "mean_split", "max_split"],
+    "device": "cpu"
+  },
+  "evaluation": {
+    "worlds_per_condition": 1000,
+    "batch_size": 100,
+    "seed_offset": 100003,
+    "conditions": ["overlap_0.0", "overlap_0.25", "overlap_0.5"],
+    "overlap_levels": [0.0, 0.25, 0.5],
+    "queries_per_world": 4,
+    "one_hop_queries_per_world": 2,
+    "two_hop_queries_per_world": 2,
+    "missing_probability": 0.2,
+    "methods": ["learned", "deepsets", "sum", "max", "mean", "a_only", "b_only", "zero", "swapped_B", "full_reencode_sum", "full_reencode_max"],
+    "swapped_B_donor": "previous world in the evaluation batch with cyclic wrap; roll four query rows; donor world id is saved",
+    "calibration_bins": 10,
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 20261008,
+    "primary_condition": "overlap_0.5",
+    "primary_subset": "known_two_hop",
+    "primary_contrast": ["learned", "max"]
+  },
+  "claims_boundary": {
+    "symmetric_merger_guarantees": ["commutativity", "identity_when_one_input_is_zero"],
+    "idempotence_and_associativity": "empirical diagnostics, not guaranteed",
+    "full_reencode": "reference with access to the combined raw evidence",
+    "revision_scope": "reserved for a follow-up; all registered pilot evidence has revision zero",
+    "train_eval_split": "independent seeded worlds; held-out facts are freshly sampled, entity alphabet shared"
+  }
+}

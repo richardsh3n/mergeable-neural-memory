@@ -1,0 +1,11 @@
+{
+  "kind": "success",
+  "compiler": "Codex desktop built-in compiler",
+  "message": "The current source compiled successfully with the desktop editor compiler.",
+  "recorded_at_utc": "2026-10-08T16:52:48.164589+00:00",
+  "source_sha256": "04fddafdadd242f20c7f261855747c67ad28969851f750dd1c6111c7b4177305",
+  "attempts": 3,
+  "first_two_attempts": "Compiler initialization/package downloads timed out; no document error reported.",
+  "exported_pdf": false,
+  "visual_layout_review": "not independently rendered; standalone result plots inspected"
+}

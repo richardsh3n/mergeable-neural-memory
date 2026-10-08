@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "scope": "Independent reconstruction from saved artifacts; no model-code import, training, tuning, or new evaluation",
+  "created_utc": "2026-10-08T16:38:52.353108+00:00",
+  "auditor_sha256": "778f222d9078ef400715d1b4b61f5a87c06769167861422370423fb659c418db",
+  "checks": [
+    {
+      "name": "freeze_time_matches_observed_pre_run_record",
+      "passed": true
+    },
+    {
+      "name": "freeze_is_local_not_external_registration",
+      "passed": true
+    },
+    {
+      "name": "pinned_input:docs/PREREGISTRATION.md",
+      "passed": true
+    },
+    {
+      "name": "pinned_input:configs/pilot.json",
+      "passed": true
+    },
+    {
+      "name": "pinned_input:src/merge_memory.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:configs/pilot.json",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:docs/PREREGISTRATION.md",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:requirements.lock.txt",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:scripts/freeze.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:scripts/run_locked.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:src/merge_memory.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:src/theory.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:tests/test_memory.py",
+      "passed": true
+    },
+    {
+      "name": "frozen_hash:tests/test_theory.py",
+      "passed": true
+    },
+    {
+      "name": "configuration_matches_freeze_and_run",
+      "passed": true
+    },
+    {
+      "name": "artifact_hash:checkpoint-seed-11.pt",
+      "passed": true
+    },
+    {
+      "name": "artifact_hash:checkpoint-seed-23.pt",
+      "passed": true
+    },
+    {
+      "name": "artifact_hash:checkpoint-seed-37.pt",
+      "passed": true
+    },
+    {
+      "name": "artifact_hash:metrics.json",
+      "passed": true
+    },
+    {
+      "name": "artifact_hash:predictions.csv.gz",
+      "passed": true
+    },
+    {
+      "name": "artifact_hash:training-trace.json",
+      "passed": true
+    },
+    {
+      "name": "all_required_artifacts_are_hashed",
+      "passed": true
+    },
+    {
+      "name": "registered_seeds_strata_methods",
+      "passed": true
+    },
+    {
+      "name": "registered_world_query_counts",
+      "passed": true
+    },
+    {
+      "name": "row_count_396000",
+      "passed": true,
+      "detail": {
+        "observed": 396000,
+        "expected": 396000
+      }
+    },
+    {
+      "name": "complete_unique_method_world_query_coverage",
+      "passed": true
+    },
+    {
+      "name": "labels_query_and_oracle_counts_shared_across_methods",
+      "passed": true
+    },
+    {
+      "name": "known_two_hop_private_ambiguity",
+      "passed": true,
+      "detail": "Every saved known two-hop row has both private possible-answer counts >=2"
+    },
+    {
+      "name": "probabilities_predictions_confidence_and_correctness_consistent",
+      "passed": true
+    },
+    {
+      "name": "swapped_B_uses_distinct_grouped_donors",
+      "passed": true
+    },
+    {
+      "name": "maxset_and_full_max_predictions_identical",
+      "passed": true
+    },
+    {
+      "name": "maxset_and_full_max_probabilities_close",
+      "passed": true,
+      "detail": {
+        "max_absolute_difference": 0.0,
+        "absolute_tolerance": 1e-06
+      }
+    },
+    {
+      "name": "three_unique_run_summaries",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:max",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.0:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:max",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.25:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:max",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:11:overlap_0.5:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:max",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.0:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:max",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.25:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:max",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:23:overlap_0.5:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:max",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.0:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:max",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.25:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:learned",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:deepsets",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:sum",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:max",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:mean",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:a_only",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:b_only",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:zero",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:swapped_B",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:full_reencode_sum",
+      "passed": true
+    },
+    {
+      "name": "summary:37:overlap_0.5:full_reencode_max",
+      "passed": true
+    },
+    {
+      "name": "registered_bootstrap_settings",
+      "passed": true
+    },
+    {
+      "name": "primary_effect_independently_reconstructed",
+      "passed": true
+    },
+    {
+      "name": "primary_interval_independently_reconstructed",
+      "passed": true
+    },
+    {
+      "name": "primary_fit_effects_and_eligible_world_counts_reconstructed",
+      "passed": true
+    },
+    {
+      "name": "three_final_checkpoints_present",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_nonempty:11",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_metadata:11",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:11:model",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:11:model",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:11:merger",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:11:merger",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:11:deepsets",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:11:deepsets",
+      "passed": true
+    },
+    {
+      "name": "registered_state_size:11",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_nonempty:23",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_metadata:23",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:23:model",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:23:model",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:23:merger",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:23:merger",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:23:deepsets",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:23:deepsets",
+      "passed": true
+    },
+    {
+      "name": "registered_state_size:23",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_nonempty:37",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_metadata:37",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:37:model",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:37:model",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:37:merger",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:37:merger",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_float32_tensors:37:deepsets",
+      "passed": true
+    },
+    {
+      "name": "checkpoint_parameter_payload:37:deepsets",
+      "passed": true
+    },
+    {
+      "name": "registered_state_size:37",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:11:shared",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:11:learned",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:11:deepsets",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:23:shared",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:23:learned",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:23:deepsets",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:37:shared",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:37:learned",
+      "passed": true
+    },
+    {
+      "name": "scheduled_final_logged_step:37:deepsets",
+      "passed": true
+    }
+  ],
+  "details": {
+    "freeze_sha256": "89ffe6f9fe066ed26bbb6a3b4d84b05633d59e9aca9ef4cdc91a9e242e16e097",
+    "freeze_utc": "2026-10-08T16:32:32.407124+00:00",
+    "verified_frozen_inputs": [
+      "configs/pilot.json",
+      "docs/PREREGISTRATION.md",
+      "requirements.lock.txt",
+      "scripts/freeze.py",
+      "scripts/run_locked.py",
+      "src/merge_memory.py",
+      "src/theory.py",
+      "tests/test_memory.py",
+      "tests/test_theory.py"
+    ],
+    "artifact_manifest_sha256": "81bbae151ad53e6c020f2d25efc59b04b685fefcd04d42f34401a2d50d9ff788",
+    "dataset_class_and_eligibility_counts": [
+      {
+        "seed": 11,
+        "stratum": "overlap_0.0",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 3002,
+        "unknown_queries": 998,
+        "unknown_fraction": 0.2495,
+        "eligible_worlds": 891,
+        "eligible_queries": 1458
+      },
+      {
+        "seed": 11,
+        "stratum": "overlap_0.25",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 3032,
+        "unknown_queries": 968,
+        "unknown_fraction": 0.242,
+        "eligible_worlds": 894,
+        "eligible_queries": 1456
+      },
+      {
+        "seed": 11,
+        "stratum": "overlap_0.5",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 3025,
+        "unknown_queries": 975,
+        "unknown_fraction": 0.24375,
+        "eligible_worlds": 898,
+        "eligible_queries": 1475
+      },
+      {
+        "seed": 23,
+        "stratum": "overlap_0.0",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 2980,
+        "unknown_queries": 1020,
+        "unknown_fraction": 0.255,
+        "eligible_worlds": 895,
+        "eligible_queries": 1461
+      },
+      {
+        "seed": 23,
+        "stratum": "overlap_0.25",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 3031,
+        "unknown_queries": 969,
+        "unknown_fraction": 0.24225,
+        "eligible_worlds": 887,
+        "eligible_queries": 1472
+      },
+      {
+        "seed": 23,
+        "stratum": "overlap_0.5",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 2991,
+        "unknown_queries": 1009,
+        "unknown_fraction": 0.25225,
+        "eligible_worlds": 881,
+        "eligible_queries": 1443
+      },
+      {
+        "seed": 37,
+        "stratum": "overlap_0.0",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 3005,
+        "unknown_queries": 995,
+        "unknown_fraction": 0.24875,
+        "eligible_worlds": 907,
+        "eligible_queries": 1474
+      },
+      {
+        "seed": 37,
+        "stratum": "overlap_0.25",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 3071,
+        "unknown_queries": 929,
+        "unknown_fraction": 0.23225,
+        "eligible_worlds": 902,
+        "eligible_queries": 1506
+      },
+      {
+        "seed": 37,
+        "stratum": "overlap_0.5",
+        "worlds": 1000,
+        "queries": 4000,
+        "known_queries": 2980,
+        "unknown_queries": 1020,
+        "unknown_fraction": 0.255,
+        "eligible_worlds": 885,
+        "eligible_queries": 1458
+      }
+    ],
+    "reconstructed_primary": {
+      "main": "learned",
+      "baseline": "max",
+      "condition": "overlap_0.5",
+      "difference_fraction": -0.00473705761829015,
+      "difference_percentage_points": -0.473705761829015,
+      "conditional_95_percent_interval_fraction": [
+        -0.012296371667076124,
+        0.0032105147180795414
+      ],
+      "conditional_95_percent_interval_percentage_points": [
+        -1.2296371667076125,
+        0.3210514718079541
+      ],
+      "bootstrap_resamples": 5000,
+      "bootstrap_seed": 20261008,
+      "fits": [
+        {
+          "seed": 11,
+          "worlds": 898,
+          "queries": 1475,
+          "difference": -0.0033407572383073497,
+          "main_world_macro": 0.9905345211581291,
+          "baseline_world_macro": 0.9938752783964365
+        },
+        {
+          "seed": 23,
+          "worlds": 881,
+          "queries": 1443,
+          "difference": -0.030079455164585697,
+          "main_world_macro": 0.8615209988649262,
+          "baseline_world_macro": 0.8916004540295119
+        },
+        {
+          "seed": 37,
+          "worlds": 885,
+          "queries": 1458,
+          "difference": 0.0192090395480226,
+          "main_world_macro": 0.5135593220338983,
+          "baseline_world_macro": 0.4943502824858757
+        }
+      ],
+      "h1_supported": false
+    },
+    "checkpoints": [
+      {
+        "seed": 11,
+        "file": "checkpoint-seed-11.pt",
+        "file_bytes": 168469,
+        "sha256": "e56b0a0a5391ca90fc1f768fdca5ee2a77876f56762ea3e2fd21ec972b4957d9",
+        "groups": {
+          "model": {
+            "tensor_elements": 25623,
+            "tensor_payload_bytes": 102492,
+            "dtype": "float32"
+          },
+          "merger": {
+            "tensor_elements": 6232,
+            "tensor_payload_bytes": 24928,
+            "dtype": "float32"
+          },
+          "deepsets": {
+            "tensor_elements": 6320,
+            "tensor_payload_bytes": 25280,
+            "dtype": "float32"
+          }
+        }
+      },
+      {
+        "seed": 23,
+        "file": "checkpoint-seed-23.pt",
+        "file_bytes": 168469,
+        "sha256": "7f645e67b39876e1dcb5e68a4ea67bae3dedcca73782c67585757e45818fd618",
+        "groups": {
+          "model": {
+            "tensor_elements": 25623,
+            "tensor_payload_bytes": 102492,
+            "dtype": "float32"
+          },
+          "merger": {
+            "tensor_elements": 6232,
+            "tensor_payload_bytes": 24928,
+            "dtype": "float32"
+          },
+          "deepsets": {
+            "tensor_elements": 6320,
+            "tensor_payload_bytes": 25280,
+            "dtype": "float32"
+          }
+        }
+      },
+      {
+        "seed": 37,
+        "file": "checkpoint-seed-37.pt",
+        "file_bytes": 168469,
+        "sha256": "26b324c22e12ed9045293e5b194c567983c528f5a81fa216f784dcc2a1434861",
+        "groups": {
+          "model": {
+            "tensor_elements": 25623,
+            "tensor_payload_bytes": 102492,
+            "dtype": "float32"
+          },
+          "merger": {
+            "tensor_elements": 6232,
+            "tensor_payload_bytes": 24928,
+            "dtype": "float32"
+          },
+          "deepsets": {
+            "tensor_elements": 6320,
+            "tensor_payload_bytes": 25280,
+            "dtype": "float32"
+          }
+        }
+      }
+    ],
+    "versions": {
+      "python": "3.10.11",
+      "numpy": "2.2.6",
+      "torch": "2.14.1"
+    }
+  },
+  "warnings": [
+    {
+      "kind": "preregistered_reporting_omission",
+      "detail": "Generator rejection/resampling attempt counts were not recorded by the frozen core. They cannot be reconstructed from saved predictions. This is disclosed without a new run or tuning."
+    }
+  ],
+  "limitations": [
+    "Bootstrap interval conditions on three fitted models, not a population of training seeds.",
+    "Private ambiguity is checked against saved oracle counts; raw fact sets are not saved in CSV, so their counts cannot independently be recomputed here.",
+    "Local freeze timestamps and hashes are provenance evidence, not an externally authenticated registration.",
+    "Checkpoint weights are inspected; per-world latent states are not stored, so their runtime dtype relies additionally on the frozen source and pre-run tensor checks."
+  ],
+  "status": "passed_with_reporting_omission",
+  "all_recorded_assertions_passed": true
+}

@@ -1,0 +1,8 @@
+{
+  "checkpoint-seed-11.pt": "e56b0a0a5391ca90fc1f768fdca5ee2a77876f56762ea3e2fd21ec972b4957d9",
+  "checkpoint-seed-23.pt": "7f645e67b39876e1dcb5e68a4ea67bae3dedcca73782c67585757e45818fd618",
+  "checkpoint-seed-37.pt": "26b324c22e12ed9045293e5b194c567983c528f5a81fa216f784dcc2a1434861",
+  "metrics.json": "23f407f2f8cb4bf3c99296eddf2c1eb3afce603eeccd67862ada5236a377dfec",
+  "predictions.csv.gz": "19d5768ed478fb17bbb4280838bfa4805a22fbdfd05851a5da6e2dd3ccb37067",
+  "training-trace.json": "67872ed0fb264570f0fb22b9fb9b480ba730626ec36720b22546121a3a56d7c2"
+}

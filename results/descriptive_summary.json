@@ -1,0 +1,23 @@
+{
+  "primary_supported": false,
+  "delta_pp": -0.473705761829015,
+  "conditional_ci_pp": [
+    -1.2296371667076125,
+    0.3210514718079541
+  ],
+  "best_simple": "max",
+  "best_nonreplay": "max",
+  "primary_scores_percent": {
+    "learned": 78.85382806856512,
+    "deepsets": 58.31485379098641,
+    "sum": 74.18143457788302,
+    "max": 79.32753383039413,
+    "mean": 73.69145037486085,
+    "a_only": 5.848402272215667,
+    "b_only": 5.769213809667742,
+    "zero": 0.0,
+    "swapped_B": 16.145444761330456,
+    "full_reencode_sum": 77.74170701749,
+    "full_reencode_max": 79.32753383039413
+  }
+}
