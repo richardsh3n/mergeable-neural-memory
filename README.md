@@ -12,6 +12,10 @@ This is a local research archive and exploratory pilot. The protocol is locally 
 
 The archive contains **396,000 prediction rows**, three final checkpoints, source and a self-contained [English working paper](paper/manuscript.tex). Independent reconstruction passes **173 audit assertions**, with one disclosed reporting omission: generator rejection-attempt counts were not saved. Begin with the [Chinese opening brief](docs/OPENING_BRIEF.zh-CN.md), [full result report](docs/PILOT_REPORT.md), and [audit evidence](results/audit.json). The reporting boundaries are in [CLAIMS.md](CLAIMS.md), and amendments belong in [DEVIATIONS.md](DEVIATIONS.md).
 
+### Follow-up diagnostic and research proposals
+
+The separate [v0.2 writer-supervision diagnostic](experiments/v02/RESULTS.md) found a positive pooled difference but **failed its registered progress gate**; its RNG seeding also deviated from the written protocol, as disclosed in the report. It is not evidence for an LLM capability claim. A targeted literature review produced three local working proposals in [research-directions](research-directions/README.md): counterfactually sufficient state, decision-value forgetting, and revocable shared latent memory. They are proposals, not completed or submitted papers. The v0.2 and proposal files are prepared locally and have not yet been pushed.
+
 ## What is being tested
 
 Each synthetic world has six entities and two directed functional relations. Relation targets are sampled independently, rather than as bijections. Entity names are randomly permuted in every world. Evidence is split between A and B, with overlapping distractors and exclusive facts needed for two-hop questions.

@@ -1,0 +1,81 @@
+SAMPLER_SELF_CHECK=PASS
+{"seed": 11, "arm": "local", "step": 100, "local_loss": 0.05347614362835884, "union_loss": 0.02862655185163021, "elapsed_seconds": 1.3404209613800049}
+{"seed": 11, "arm": "local", "step": 200, "local_loss": 0.018512096256017685, "union_loss": 0.03673211485147476, "elapsed_seconds": 2.6497700214385986}
+{"seed": 11, "arm": "local", "step": 300, "local_loss": 0.040339622646570206, "union_loss": 0.03602420538663864, "elapsed_seconds": 3.9914419651031494}
+{"seed": 11, "arm": "local", "step": 400, "local_loss": 0.015057967975735664, "union_loss": 0.014193085953593254, "elapsed_seconds": 5.264297008514404}
+{"seed": 11, "arm": "local", "step": 500, "local_loss": 0.014620482921600342, "union_loss": 0.01841898448765278, "elapsed_seconds": 6.4932639598846436}
+{"seed": 11, "arm": "local", "step": 600, "local_loss": 0.04499295353889465, "union_loss": 0.013063456863164902, "elapsed_seconds": 7.758778810501099}
+{"seed": 11, "arm": "local", "step": 700, "local_loss": 0.010510099120438099, "union_loss": 0.022967727854847908, "elapsed_seconds": 8.951422929763794}
+{"seed": 11, "arm": "local", "step": 800, "local_loss": 0.016598891466856003, "union_loss": 0.015221193432807922, "elapsed_seconds": 10.21986699104309}
+{"seed": 11, "arm": "local", "step": 900, "local_loss": 0.009527061134576797, "union_loss": 0.014114498160779476, "elapsed_seconds": 11.547144889831543}
+{"seed": 11, "arm": "local", "step": 1000, "local_loss": 0.01782839745283127, "union_loss": 0.012865412048995495, "elapsed_seconds": 12.836426019668579}
+{"seed": 11, "arm": "future", "step": 100, "local_loss": 0.11414265632629395, "union_loss": 0.012940977700054646, "elapsed_seconds": 1.4735848903656006}
+{"seed": 11, "arm": "future", "step": 200, "local_loss": 0.011743173934519291, "union_loss": 0.012894878163933754, "elapsed_seconds": 2.9872028827667236}
+{"seed": 11, "arm": "future", "step": 300, "local_loss": 0.031484536826610565, "union_loss": 0.016551658511161804, "elapsed_seconds": 4.698347091674805}
+{"seed": 11, "arm": "future", "step": 400, "local_loss": 0.0142605509608984, "union_loss": 0.010716859251260757, "elapsed_seconds": 6.182662010192871}
+{"seed": 11, "arm": "future", "step": 500, "local_loss": 0.0447121225297451, "union_loss": 0.009017545729875565, "elapsed_seconds": 7.831389904022217}
+{"seed": 11, "arm": "future", "step": 600, "local_loss": 0.07946429401636124, "union_loss": 0.008717266842722893, "elapsed_seconds": 9.271843910217285}
+{"seed": 11, "arm": "future", "step": 700, "local_loss": 0.011384524405002594, "union_loss": 0.01688910648226738, "elapsed_seconds": 10.677933931350708}
+{"seed": 11, "arm": "future", "step": 800, "local_loss": 0.02731967344880104, "union_loss": 0.011044053360819817, "elapsed_seconds": 12.010341882705688}
+{"seed": 11, "arm": "future", "step": 900, "local_loss": 0.009374934248626232, "union_loss": 0.005664566531777382, "elapsed_seconds": 13.336286067962646}
+{"seed": 11, "arm": "future", "step": 1000, "local_loss": 0.016258571296930313, "union_loss": 0.009827977046370506, "elapsed_seconds": 14.665596008300781}
+{"seed": 23, "arm": "local", "step": 100, "local_loss": 0.604212760925293, "union_loss": 0.5123420357704163, "elapsed_seconds": 1.3517723083496094}
+{"seed": 23, "arm": "local", "step": 200, "local_loss": 0.9259170293807983, "union_loss": 0.7250706553459167, "elapsed_seconds": 2.483466386795044}
+{"seed": 23, "arm": "local", "step": 300, "local_loss": 0.48601269721984863, "union_loss": 0.647381067276001, "elapsed_seconds": 3.949308156967163}
+{"seed": 23, "arm": "local", "step": 400, "local_loss": 0.5841282606124878, "union_loss": 0.7409616708755493, "elapsed_seconds": 5.176452159881592}
+{"seed": 23, "arm": "local", "step": 500, "local_loss": 0.4938926100730896, "union_loss": 0.7063621878623962, "elapsed_seconds": 6.463080167770386}
+{"seed": 23, "arm": "local", "step": 600, "local_loss": 0.559583842754364, "union_loss": 0.5474038124084473, "elapsed_seconds": 7.745625257492065}
+{"seed": 23, "arm": "local", "step": 700, "local_loss": 0.5559595227241516, "union_loss": 0.6667160987854004, "elapsed_seconds": 9.096258163452148}
+{"seed": 23, "arm": "local", "step": 800, "local_loss": 0.4381314516067505, "union_loss": 0.42182427644729614, "elapsed_seconds": 10.301758289337158}
+{"seed": 23, "arm": "local", "step": 900, "local_loss": 0.557119607925415, "union_loss": 0.6254650354385376, "elapsed_seconds": 11.492817163467407}
+{"seed": 23, "arm": "local", "step": 1000, "local_loss": 0.4057120680809021, "union_loss": 0.7782062292098999, "elapsed_seconds": 12.679070234298706}
+{"seed": 23, "arm": "future", "step": 100, "local_loss": 0.6219455599784851, "union_loss": 0.4991108477115631, "elapsed_seconds": 1.448836088180542}
+{"seed": 23, "arm": "future", "step": 200, "local_loss": 0.9896262288093567, "union_loss": 0.5652399063110352, "elapsed_seconds": 2.885446310043335}
+{"seed": 23, "arm": "future", "step": 300, "local_loss": 0.5581033229827881, "union_loss": 0.645546555519104, "elapsed_seconds": 4.155025243759155}
+{"seed": 23, "arm": "future", "step": 400, "local_loss": 0.6361769437789917, "union_loss": 0.5200139284133911, "elapsed_seconds": 5.476032018661499}
+{"seed": 23, "arm": "future", "step": 500, "local_loss": 0.5504807233810425, "union_loss": 0.5144884586334229, "elapsed_seconds": 6.767596006393433}
+{"seed": 23, "arm": "future", "step": 600, "local_loss": 0.6296790242195129, "union_loss": 0.49060675501823425, "elapsed_seconds": 8.00006914138794}
+{"seed": 23, "arm": "future", "step": 700, "local_loss": 0.5507293343544006, "union_loss": 0.4909204840660095, "elapsed_seconds": 9.447408199310303}
+{"seed": 23, "arm": "future", "step": 800, "local_loss": 0.4884730875492096, "union_loss": 0.34998202323913574, "elapsed_seconds": 10.744935274124146}
+{"seed": 23, "arm": "future", "step": 900, "local_loss": 0.6235852837562561, "union_loss": 0.602406919002533, "elapsed_seconds": 12.10170316696167}
+{"seed": 23, "arm": "future", "step": 1000, "local_loss": 0.46754640340805054, "union_loss": 0.6095711588859558, "elapsed_seconds": 13.396988153457642}
+{"seed": 37, "arm": "local", "step": 100, "local_loss": 0.6219837069511414, "union_loss": 1.317233681678772, "elapsed_seconds": 1.131411075592041}
+{"seed": 37, "arm": "local", "step": 200, "local_loss": 0.6342315077781677, "union_loss": 1.465744972229004, "elapsed_seconds": 2.2594640254974365}
+{"seed": 37, "arm": "local", "step": 300, "local_loss": 0.7206357717514038, "union_loss": 1.6042381525039673, "elapsed_seconds": 3.4057343006134033}
+{"seed": 37, "arm": "local", "step": 400, "local_loss": 0.6899325251579285, "union_loss": 1.4747858047485352, "elapsed_seconds": 4.592369318008423}
+{"seed": 37, "arm": "local", "step": 500, "local_loss": 0.5298274159431458, "union_loss": 1.4331635236740112, "elapsed_seconds": 5.7565529346466064}
+{"seed": 37, "arm": "local", "step": 600, "local_loss": 0.5086351037025452, "union_loss": 1.5748356580734253, "elapsed_seconds": 6.929905891418457}
+{"seed": 37, "arm": "local", "step": 700, "local_loss": 0.6368046998977661, "union_loss": 1.505060076713562, "elapsed_seconds": 8.117846012115479}
+{"seed": 37, "arm": "local", "step": 800, "local_loss": 0.5490483641624451, "union_loss": 1.2616026401519775, "elapsed_seconds": 9.30321216583252}
+{"seed": 37, "arm": "local", "step": 900, "local_loss": 0.7061811089515686, "union_loss": 1.5729660987854004, "elapsed_seconds": 10.446221113204956}
+{"seed": 37, "arm": "local", "step": 1000, "local_loss": 0.607219398021698, "union_loss": 1.399476170539856, "elapsed_seconds": 11.613745927810669}
+{"seed": 37, "arm": "future", "step": 100, "local_loss": 0.6980576515197754, "union_loss": 1.0381076335906982, "elapsed_seconds": 1.328824758529663}
+{"seed": 37, "arm": "future", "step": 200, "local_loss": 0.7315273284912109, "union_loss": 1.069746732711792, "elapsed_seconds": 2.6088707447052}
+{"seed": 37, "arm": "future", "step": 300, "local_loss": 0.8364817500114441, "union_loss": 1.2339015007019043, "elapsed_seconds": 3.8796567916870117}
+{"seed": 37, "arm": "future", "step": 400, "local_loss": 0.7019456624984741, "union_loss": 1.095345139503479, "elapsed_seconds": 5.144917964935303}
+{"seed": 37, "arm": "future", "step": 500, "local_loss": 0.610764741897583, "union_loss": 1.0335413217544556, "elapsed_seconds": 6.453302621841431}
+{"seed": 37, "arm": "future", "step": 600, "local_loss": 0.5488384366035461, "union_loss": 1.0286815166473389, "elapsed_seconds": 7.747997999191284}
+{"seed": 37, "arm": "future", "step": 700, "local_loss": 0.7045011520385742, "union_loss": 1.1279339790344238, "elapsed_seconds": 9.075989007949829}
+{"seed": 37, "arm": "future", "step": 800, "local_loss": 0.6166244745254517, "union_loss": 1.0027296543121338, "elapsed_seconds": 10.327839851379395}
+{"seed": 37, "arm": "future", "step": 900, "local_loss": 0.7649017572402954, "union_loss": 1.1893115043640137, "elapsed_seconds": 11.59577989578247}
+{"seed": 37, "arm": "future", "step": 1000, "local_loss": 0.6460294723510742, "union_loss": 1.027768850326538, "elapsed_seconds": 12.871789693832397}
+Traceback (most recent call last):
+  File "<repo>/experiments/v02/run.py", line 396, in <module>
+    (HERE / "results.json").write_text(json.dumps(summary, indent=2))
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 201, in encode
+    chunks = list(chunks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 431, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 405, in _iterencode_dict
+    yield from chunks
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 438, in _iterencode
+    o = _default(o)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type bool is not JSON serializable

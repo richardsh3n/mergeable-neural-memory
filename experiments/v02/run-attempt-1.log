@@ -1,0 +1,23 @@
+SAMPLER_SELF_CHECK=PASS
+{"seed": 11, "arm": "local", "step": 100, "local_loss": 0.05347614362835884, "union_loss": 0.02862655185163021, "elapsed_seconds": 1.151054859161377}
+{"seed": 11, "arm": "local", "step": 200, "local_loss": 0.018512096256017685, "union_loss": 0.03673211485147476, "elapsed_seconds": 2.2956149578094482}
+{"seed": 11, "arm": "local", "step": 300, "local_loss": 0.040339622646570206, "union_loss": 0.03602420538663864, "elapsed_seconds": 3.358811855316162}
+{"seed": 11, "arm": "local", "step": 400, "local_loss": 0.015057967975735664, "union_loss": 0.014193085953593254, "elapsed_seconds": 4.403316020965576}
+{"seed": 11, "arm": "local", "step": 500, "local_loss": 0.014620482921600342, "union_loss": 0.01841898448765278, "elapsed_seconds": 5.452457904815674}
+{"seed": 11, "arm": "local", "step": 600, "local_loss": 0.04499295353889465, "union_loss": 0.013063456863164902, "elapsed_seconds": 6.49556303024292}
+{"seed": 11, "arm": "local", "step": 700, "local_loss": 0.010510099120438099, "union_loss": 0.022967727854847908, "elapsed_seconds": 7.54007887840271}
+{"seed": 11, "arm": "local", "step": 800, "local_loss": 0.016598891466856003, "union_loss": 0.015221193432807922, "elapsed_seconds": 8.597570657730103}
+{"seed": 11, "arm": "local", "step": 900, "local_loss": 0.009527061134576797, "union_loss": 0.014114498160779476, "elapsed_seconds": 9.648837804794312}
+{"seed": 11, "arm": "local", "step": 1000, "local_loss": 0.01782839745283127, "union_loss": 0.012865412048995495, "elapsed_seconds": 10.700953722000122}
+Traceback (most recent call last):
+  File "<repo>/experiments/v02/run.py", line 366, in <module>
+    per_fit = eval_arm(model, worlds, config["overlaps"])
+  File "<python-venv>/lib/python3.10/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+  File "<repo>/experiments/v02/run.py", line 236, in eval_arm
+    part_batches = [pad_facts([partitions[i]] * len(episodes),
+  File "<repo>/experiments/v02/run.py", line 236, in <listcomp>
+    part_batches = [pad_facts([partitions[i]] * len(episodes),
+  File "<repo>/src/merge_memory.py", line 264, in pad_facts
+    raise ValueError("Fact padding would truncate evidence; increase the registered cap.")
+ValueError: Fact padding would truncate evidence; increase the registered cap.

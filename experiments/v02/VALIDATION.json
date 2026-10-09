@@ -1,0 +1,11 @@
+{
+  "freeze_hashes": 9,
+  "heldout_queries": 6000,
+  "heldout_worlds": 1500,
+  "paired_fits": 3,
+  "prediction_rows": 486000,
+  "probability_rows_normalized": true,
+  "state_bytes": 1152,
+  "primary_interval_positive": true,
+  "progress_gate_passed": false
+}

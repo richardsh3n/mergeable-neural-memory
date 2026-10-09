@@ -1,0 +1,23 @@
+{
+  "protocol_status": "locally frozen; not externally registered",
+  "freeze_revision": 2,
+  "created_at": "2026-10-10T02:47:00+08:00",
+  "pre_run_note": "One prior invocation halted before outcome metrics were emitted or inspected; the evaluation-only three-party partitioning bug was corrected and documented. No hypothesis, training data law, optimizer, endpoint, or decision rule changed.",
+  "files": {
+    "experiments/v02/PREREGISTRATION.md": "a5b4453e811802bc6891f37de5828d01f4961ccb665b790d72a8757b88712d4a",
+    "experiments/v02/LITERATURE.md": "3541119c3e6adec12f04dadbdc87a897f9e034656db461e3c00108f0c63063b4",
+    "experiments/v02/config.json": "3321a676ef17ae19d1af5dc9ec852e38c6f7385f882bf242ae12b98a0deb15a1",
+    "experiments/v02/run.py": "58043884ad52fa469df97ee4953f81662b4d2d09dda73dbceb9062fb72f8ef3a",
+    "configs/pilot.json": "bf3ddbb08f19dbe0a08adf9811be9eb10a823528f3161eac4b08e18af1c7a38e",
+    "src/merge_memory.py": "6a22f25e6b7ce617bc4a50b8f1903ebff4b50fda09975d7159aeae0dcfc8c7a4",
+    "results/pilot/checkpoint-seed-11.pt": "e56b0a0a5391ca90fc1f768fdca5ee2a77876f56762ea3e2fd21ec972b4957d9",
+    "results/pilot/checkpoint-seed-23.pt": "7f645e67b39876e1dcb5e68a4ea67bae3dedcca73782c67585757e45818fd618",
+    "results/pilot/checkpoint-seed-37.pt": "26b324c22e12ed9045293e5b194c567983c528f5a81fa216f784dcc2a1434861"
+  },
+  "preflight": [
+    "counted sampler exactly matches frozen v0.1 sampler on 6 fixtures",
+    "single optimizer step changes writer only; reader/shared parameters byte-identical",
+    "evaluation emits probabilities, local/union labels and all registered merge controls",
+    "MAXSET split state and three-party merge trees exactly match full-union"
+  ]
+}
