@@ -16,6 +16,8 @@ The archive contains **396,000 prediction rows**, three final checkpoints, sourc
 
 The separate [v0.2 writer-supervision diagnostic](experiments/v02/RESULTS.md) found a positive pooled difference but **failed its registered progress gate**; its RNG seeding also deviated from the written protocol, as disclosed in the report. It is not evidence for an LLM capability claim. The first proposal set in [research-directions](research-directions/README.md) covers counterfactually sufficient state, decision-value forgetting, and revocable shared latent memory. A second, distinct set in [research-directions/round-2](research-directions/round-2/README.md) proposes prospective memory for interrupted tool agents, self-confirming memory loops, and active evidence capture. Both sets are literature-informed proposals, not completed or submitted papers. Their novelty boundaries and practical stop rules are documented alongside the drafts.
 
+A third set in [research-directions/round-3](research-directions/round-3/README.md) proposes writable state portability across model hosts, dependency-preserving evidence compression, and selective recall after state damage. The [Chinese nine-topic index](research-directions/INDEX.zh-CN.md) links all three rounds. These are research designs awaiting experimental validation; they are not additional completed papers.
+
 ## What is being tested
 
 Each synthetic world has six entities and two directed functional relations. Relation targets are sampled independently, rather than as bijections. Entity names are randomly permuted in every world. Evidence is split between A and B, with overlapping distractors and exclusive facts needed for two-hop questions.

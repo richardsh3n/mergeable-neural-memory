@@ -1,0 +1,60 @@
+{
+  "checked_date": "2026-10-15",
+  "review_scope": "Targeted primary-source scan; not systematic review or reproduction. Descriptions of uncovered intersections are proposals/inferences, not proven literature absences.",
+  "sources": [
+    {
+      "id": "2609.05339v1",
+      "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
+      "url": "https://arxiv.org/abs/2609.05339v1",
+      "inspection": "abstract and version history"
+    },
+    {
+      "id": "2608.17050v3",
+      "title": "Frozen Memory Is Not Enough: Rethinking External Memory as Extraction",
+      "url": "https://arxiv.org/abs/2608.17050v3",
+      "inspection": "abstract, version history, selected full-text introduction/method scope"
+    },
+    {
+      "id": "2508.06433v4",
+      "title": "Memp: Exploring Agent Procedural Memory",
+      "url": "https://arxiv.org/abs/2508.06433v4",
+      "inspection": "abstract and version history"
+    },
+    {
+      "id": "2402.04624v2",
+      "title": "MEMORYLLM: Towards Self-Updatable Large Language Models",
+      "url": "https://arxiv.org/abs/2402.04624v2",
+      "inspection": "abstract and version history"
+    },
+    {
+      "id": "2607.02579v1",
+      "title": "When Not to Write Memory: Governing False Promotion from Correlated Agent Traces",
+      "url": "https://arxiv.org/abs/2607.02579v1",
+      "inspection": "abstract, version history, selected full text"
+    },
+    {
+      "id": "2607.27958v1",
+      "title": "Sigma-Mem: An Online Reliability Memory for LLM-based Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2607.27958v1",
+      "inspection": "abstract and version history"
+    },
+    {
+      "id": "2606.28958v1",
+      "title": "When Latent Agents Lie: KV-Cache Integrity in Multi-Agent LLM Collaboration",
+      "url": "https://arxiv.org/abs/2606.28958v1",
+      "inspection": "abstract, version history, selected full-text integrity/transport passages"
+    },
+    {
+      "id": "1303.7032v2",
+      "title": "A Massively Parallel Associative Memory Based on Sparse Neural Networks",
+      "url": "https://arxiv.org/abs/1303.7032v2",
+      "inspection": "abstract and version history"
+    },
+    {
+      "id": "10.1137/0108018",
+      "title": "Polynomial Codes Over Certain Finite Fields",
+      "url": "https://epubs.siam.org/doi/10.1137/0108018",
+      "inspection": "publisher bibliographic entry"
+    }
+  ]
+}

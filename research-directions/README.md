@@ -1,6 +1,6 @@
 # First-round proposals: three research directions for persistent LLM memory
 
-**Status:** working proposals for review. These are not completed papers, registered studies, or claims of novelty. The first-round scan was updated 10 October 2026 and is targeted, not exhaustive. The first and second proposal rounds are available on the public `research/v0.3-three-frontiers` branch; `main` was not changed.
+**Status:** working proposals for review. These are not completed papers, registered studies, or claims of novelty. The first-round scan was updated 10 October 2026 and is targeted, not exhaustive. All three proposal rounds are collected on the public `research/v0.3-three-frontiers` branch.
 
 ## Selection
 
@@ -18,6 +18,12 @@ The v0.2 synthetic diagnostic is a separate result. Its future-union objective i
 
 A separate set of three new topics is now in [`round-2/`](round-2/README.md): prospective memory for interrupted tool agents, self-confirming memory loops under partial observability, and active evidence capture for unknown future tasks. These are designed to avoid duplicating the first set and include a fresh targeted literature boundary as of 15 October 2026. They remain proposals, not completed or registered studies.
 
-## Local handoff
+## Third-round proposals
+
+The new set in [`round-3/`](round-3/README.md) studies writable state portability, dependency-preserving evidence compression, and selective recall after accidental state damage. The [Chinese nine-topic index](INDEX.zh-CN.md) links all proposal rounds. The third-round primary-source scan is dated 15 October 2026 and records source versions; none of these proposals has been experimentally validated.
+
+## Publication handoff
 
 The files are published on the public `research/v0.3-three-frontiers` branch for review. The push used the existing authenticated Git credential and did not require a 2FA workaround. No pull request has been opened and `main` has not been modified.
+
+The original first-round checksum snapshot is preserved in `MANIFEST.2026-10-10.json`. `MANIFEST.json` records the current first-round files, including later navigation and publication-status edits; neither is an external preregistration.
