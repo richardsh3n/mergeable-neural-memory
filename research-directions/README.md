@@ -1,6 +1,6 @@
 # First-round proposals: three research directions for persistent LLM memory
 
-**Status:** local working proposals for review. These are not completed papers, registered studies, or claims of novelty. Literature scan updated 10 October 2026; it is targeted, not exhaustive. Nothing in this folder has been pushed to GitHub.
+**Status:** working proposals for review. These are not completed papers, registered studies, or claims of novelty. The first-round scan was updated 10 October 2026 and is targeted, not exhaustive. The first and second proposal rounds are available on the public `research/v0.3-three-frontiers` branch; `main` was not changed.
 
 ## Selection
 
@@ -20,4 +20,4 @@ A separate set of three new topics is now in [`round-2/`](round-2/README.md): pr
 
 ## Local handoff
 
-The files are prepared for GitHub review, but publication is deferred because account 2FA is unavailable on the user's replacement phone. No authentication bypass or push was attempted. The directory can be added to the public repository after the account owner can complete sign-in.
+The files are published on the public `research/v0.3-three-frontiers` branch for review. The push used the existing authenticated Git credential and did not require a 2FA workaround. No pull request has been opened and `main` has not been modified.
