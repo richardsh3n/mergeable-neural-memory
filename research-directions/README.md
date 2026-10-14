@@ -1,4 +1,4 @@
-# Three research directions for persistent LLM memory
+# First-round proposals: three research directions for persistent LLM memory
 
 **Status:** local working proposals for review. These are not completed papers, registered studies, or claims of novelty. Literature scan updated 10 October 2026; it is targeted, not exhaustive. Nothing in this folder has been pushed to GitHub.
 
@@ -13,6 +13,10 @@
 The three drafts are in [the master agenda](MASTER_DRAFT.md) and individual proposals [01](01_counterfactual_state.md), [02](02_decision_value_forgetting.md), and [03](03_revocable_shared_memory.md). The short [Chinese overview](OVERVIEW.zh-CN.md) explains the ranking. [Related work and scope](RELATED_WORK.md) records what is already covered and where each proposal would have to be different.
 
 The v0.2 synthetic diagnostic is a separate result. Its future-union objective improved the pooled primary score but failed the preregistered progress gate; it does not validate any of these three directions. See [`../experiments/v02/RESULTS.md`](../experiments/v02/RESULTS.md).
+
+## Second-round proposals
+
+A separate set of three new topics is now in [`round-2/`](round-2/README.md): prospective memory for interrupted tool agents, self-confirming memory loops under partial observability, and active evidence capture for unknown future tasks. These are designed to avoid duplicating the first set and include a fresh targeted literature boundary as of 15 October 2026. They remain proposals, not completed or registered studies.
 
 ## Local handoff
 

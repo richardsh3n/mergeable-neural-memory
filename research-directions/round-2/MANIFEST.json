@@ -1,0 +1,42 @@
+{
+  "title": "Three new frontiers for agent memory",
+  "scan_date": "2026-10-15",
+  "status": "proposal drafts; not completed or registered studies",
+  "files": [
+    {
+      "path": "01_prospective_tool_memory.md",
+      "bytes": 7470,
+      "sha256": "116e353d5bf9c62ddfcef136ee7d19af81bb7d51cd0555cf78a493350898b1dc"
+    },
+    {
+      "path": "02_self_confirming_loop.md",
+      "bytes": 7258,
+      "sha256": "b46cb6600650bc9e33a7b6551d4a5af8281c39a1f98c006b1533ae3c2660bc03"
+    },
+    {
+      "path": "03_active_evidence_capture.md",
+      "bytes": 7535,
+      "sha256": "849d537ae38febfc96ba66f390162059d20e9dbbec9a1a60145489bd89425322"
+    },
+    {
+      "path": "MASTER_DRAFT.md",
+      "bytes": 8568,
+      "sha256": "a1347e70a02d88f980dd3b55a67ae0f2f9e99b1061067b6edc3d860cfe0799c4"
+    },
+    {
+      "path": "OVERVIEW.zh-CN.md",
+      "bytes": 4204,
+      "sha256": "e2a34c73a5d6d79e88223fbe0639e4a3f8896e605a3a9d0ae223946252ac0e02"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2703,
+      "sha256": "369af1e0334a9764c9c885170aae2772a7cef3460661363cdb2dd9c7cd445b3a"
+    },
+    {
+      "path": "RELATED_WORK.md",
+      "bytes": 5266,
+      "sha256": "44e4758f77c55fd8bc55664b1282f6b1c1baa817813e4a8a11930c55eef37041"
+    }
+  ]
+}

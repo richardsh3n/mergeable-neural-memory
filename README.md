@@ -14,7 +14,7 @@ The archive contains **396,000 prediction rows**, three final checkpoints, sourc
 
 ### Follow-up diagnostic and research proposals
 
-The separate [v0.2 writer-supervision diagnostic](experiments/v02/RESULTS.md) found a positive pooled difference but **failed its registered progress gate**; its RNG seeding also deviated from the written protocol, as disclosed in the report. It is not evidence for an LLM capability claim. A targeted literature review produced three local working proposals in [research-directions](research-directions/README.md): counterfactually sufficient state, decision-value forgetting, and revocable shared latent memory. They are proposals, not completed or submitted papers. The v0.2 and proposal files are prepared locally and have not yet been pushed.
+The separate [v0.2 writer-supervision diagnostic](experiments/v02/RESULTS.md) found a positive pooled difference but **failed its registered progress gate**; its RNG seeding also deviated from the written protocol, as disclosed in the report. It is not evidence for an LLM capability claim. The first proposal set in [research-directions](research-directions/README.md) covers counterfactually sufficient state, decision-value forgetting, and revocable shared latent memory. A second, distinct set in [research-directions/round-2](research-directions/round-2/README.md) proposes prospective memory for interrupted tool agents, self-confirming memory loops, and active evidence capture. Both sets are literature-informed proposals, not completed or submitted papers. Their novelty boundaries and practical stop rules are documented alongside the drafts.
 
 ## What is being tested
 
