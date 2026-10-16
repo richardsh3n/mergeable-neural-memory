@@ -30,8 +30,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 1876,
-      "sha256": "6d259a013eed79d27b83ea614a0ab3962421db05c2bcd97d4ed4df9c07be652f"
+      "bytes": 1928,
+      "sha256": "5609004cd1becd261b6d1967d31cfd81d3cc8229b1b3a99aa894868097d91a6d"
     },
     {
       "path": "RELATED_WORK.md",
@@ -47,18 +47,20 @@
   "supporting_files": [
     {
       "repository_path": "research-directions/INDEX.zh-CN.md",
-      "bytes": 2100,
-      "sha256": "d268b454299edf85666e1b69f0cb026f55b09d437875da33af980d77b641e855"
+      "bytes": 3010,
+      "sha256": "0b671a6cc26b4a75d795ff4c1f3f19e84d3123a068566c49dd3040c1d559a096"
     },
     {
       "repository_path": "README.md",
-      "bytes": 14529,
-      "sha256": "c96d040379ab0e040b0b29960acde9ecb2a25d0990c69663e2a1261d646550d8"
+      "bytes": 14752,
+      "sha256": "b0d5c09bd6d15cf5c2645eb92ec2c34d5f1f58ab0869b9206b0ea14c39d91027"
     },
     {
       "repository_path": "research-directions/README.md",
-      "bytes": 3726,
-      "sha256": "1b7e25803285d8525ccee5f2a85f7ccd4ff58b56a40c6e071cf2e224bbfad84b"
+      "bytes": 4014,
+      "sha256": "1c432192829b3f64224c2002afcba115656ac4bd9d571f0cbd8fa1331c9bcb86"
     }
-  ]
+  ],
+  "snapshot_date": "2026-10-16",
+  "previous_snapshot": "MANIFEST.2026-10-15.json"
 }

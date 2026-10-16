@@ -1,0 +1,70 @@
+{
+  "status": "research sketches; no new experiments run or registered",
+  "scan_date": "2026-10-16",
+  "snapshot_date": "2026-10-16",
+  "paths_relative_to": "this directory",
+  "files": [
+    {
+      "path": "01_crosslingual_updates.md",
+      "bytes": 3539,
+      "sha256": "420a8a97649cae1f0e7bcef3ac31a05befdebac4ea5ca7d46139f5ffeccdcf95"
+    },
+    {
+      "path": "02_local_latent_correction.md",
+      "bytes": 3536,
+      "sha256": "cc32e7da708cbcf8bfea7c27149f9739365fba64c2231576e2023829d5d11ce7"
+    },
+    {
+      "path": "03_crossmodal_binding.md",
+      "bytes": 3526,
+      "sha256": "b4a431b1cca47a33063413d4f2baa6c2b2d9cf5b7d01023dfddb64d52cc1ee1c"
+    },
+    {
+      "path": "04_skill_contract_composition.md",
+      "bytes": 3542,
+      "sha256": "8459363d735db70fd989dac83b02ca04217bdc6089d58e8a404e6a0039be5237"
+    },
+    {
+      "path": "05_coverage_aware_negative_memory.md",
+      "bytes": 3691,
+      "sha256": "71584a2451af2f2f6c9425df56decf5724fe45662109e72944fda309e24f1985"
+    },
+    {
+      "path": "OVERVIEW.zh-CN.md",
+      "bytes": 3790,
+      "sha256": "83d28bae8024ade9302acaf479c67636ce690d32ca8d0b20f2570f1f7540da97"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2771,
+      "sha256": "52f8940692aab74b0f89f355fd87d24d60b73176ed3d07fb4b975d03b4dc1eee"
+    },
+    {
+      "path": "RELATED_WORK.md",
+      "bytes": 3811,
+      "sha256": "7f0857a6fc5b7a50d8dac007778260290d5045011102bb376a61137adbd1b0f7"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 2623,
+      "sha256": "6f832179dc5243bf3b21bcf92476f71c4d9e871a99aac863e0b4a576319aa987"
+    }
+  ],
+  "supporting_files": [
+    {
+      "repository_path": "README.md",
+      "bytes": 14752,
+      "sha256": "b0d5c09bd6d15cf5c2645eb92ec2c34d5f1f58ab0869b9206b0ea14c39d91027"
+    },
+    {
+      "repository_path": "research-directions/README.md",
+      "bytes": 4014,
+      "sha256": "1c432192829b3f64224c2002afcba115656ac4bd9d571f0cbd8fa1331c9bcb86"
+    },
+    {
+      "repository_path": "research-directions/INDEX.zh-CN.md",
+      "bytes": 3010,
+      "sha256": "0b671a6cc26b4a75d795ff4c1f3f19e84d3123a068566c49dd3040c1d559a096"
+    }
+  ]
+}

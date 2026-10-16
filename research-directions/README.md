@@ -1,6 +1,6 @@
 # First-round proposals: three research directions for persistent LLM memory
 
-**Status:** working proposals for review. These are not completed papers, registered studies, or claims of novelty. The first-round scan was updated 10 October 2026 and is targeted, not exhaustive. All three proposal rounds are collected on the public `research/v0.3-three-frontiers` branch.
+**Status:** working proposals for review. These are not completed papers, registered studies, or claims of novelty. The first-round scan was updated 10 October 2026 and is targeted, not exhaustive. All four proposal rounds are collected on the public `research/v0.3-three-frontiers` branch.
 
 ## Selection
 
@@ -20,10 +20,14 @@ A separate set of three new topics is now in [`round-2/`](round-2/README.md): pr
 
 ## Third-round proposals
 
-The new set in [`round-3/`](round-3/README.md) studies writable state portability, dependency-preserving evidence compression, and selective recall after accidental state damage. The [Chinese nine-topic index](INDEX.zh-CN.md) links all proposal rounds. The third-round primary-source scan is dated 15 October 2026 and records source versions; none of these proposals has been experimentally validated.
+The set in [`round-3/`](round-3/README.md) studies writable state portability, dependency-preserving evidence compression, and selective recall after accidental state damage. The third-round primary-source scan is dated 15 October 2026 and records source versions; none of these proposals has been experimentally validated.
+
+## Fourth-round sketches
+
+Five focused sketches in [`round-4/`](round-4/README.md) cover cross-lingual updates, local latent-state correction, cross-modal binding, skill-contract composition, and coverage-aware negative search memory. Their targeted primary-source scan is dated 16 October 2026. The [Chinese fourteen-topic index](INDEX.zh-CN.md) links every proposal.
 
 ## Publication handoff
 
 The files are published on the public `research/v0.3-three-frontiers` branch for review. The push used the existing authenticated Git credential and did not require a 2FA workaround. No pull request has been opened and `main` has not been modified.
 
-The original first-round checksum snapshot is preserved in `MANIFEST.2026-10-10.json`. `MANIFEST.json` records the current first-round files, including later navigation and publication-status edits; neither is an external preregistration.
+Earlier checksum snapshots are preserved in date-stamped manifests. `MANIFEST.json` records the current first-round files, including later navigation and publication-status edits; none of these manifests is an external preregistration.

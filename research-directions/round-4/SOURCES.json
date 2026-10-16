@@ -1,0 +1,61 @@
+{
+  "checked_date": "2026-10-16",
+  "scope": "Targeted primary-source scan; not a systematic novelty or code audit. Proposed distinctions are hypotheses, not proven literature absences.",
+  "sources": [
+    {
+      "title": "M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",
+      "url": "https://arxiv.org/abs/2402.03216v5",
+      "inspection": "abstract and version history"
+    },
+    {
+      "title": "Hindsight: Structured Agent Memory that Retains, Recalls, and Reflects",
+      "url": "https://aclanthology.org/2026.acl-demo.27/",
+      "inspection": "abstract and PDF section 4.4"
+    },
+    {
+      "title": "Larimar: Large Language Models with Episodic Memory Control",
+      "url": "https://proceedings.mlr.press/v235/das24a.html",
+      "inspection": "published abstract and bibliography"
+    },
+    {
+      "title": "MQuAKE: Assessing Knowledge Editing in Language Models via Multi-Hop Questions",
+      "url": "https://arxiv.org/abs/2305.14795v3",
+      "inspection": "abstract and version history"
+    },
+    {
+      "title": "ICM-Bench: Person-Level Identity Reasoning in Multimodal Agents with Long-Term Memory",
+      "url": "https://arxiv.org/abs/2609.04438v3",
+      "inspection": "abstract and version history; current revision 2026-10-13"
+    },
+    {
+      "title": "M3Exam: Benchmarking Multimodal Memory for Realistic User-Agent Interactions",
+      "url": "https://arxiv.org/abs/2606.07402v1",
+      "inspection": "abstract and version history"
+    },
+    {
+      "title": "Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents",
+      "url": "https://arxiv.org/abs/2602.01869v3",
+      "inspection": "abstract and version history; earlier search records use ProcMEM"
+    },
+    {
+      "title": "Generative Skill Composition for LLM Agents",
+      "url": "https://arxiv.org/abs/2606.32025v1",
+      "inspection": "abstract and version history"
+    },
+    {
+      "title": "When Not to Imitate: Boundary-Aware Skill Memory for Reliable Tool-Use LLM Agents",
+      "url": "https://arxiv.org/abs/2608.22339v1",
+      "inspection": "abstract and version history"
+    },
+    {
+      "title": "Causal Episodic Memory for Feedback-Driven Agent Repair",
+      "url": "https://arxiv.org/abs/2608.05906v2",
+      "inspection": "abstract and version history"
+    },
+    {
+      "title": "When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict",
+      "url": "https://arxiv.org/abs/2608.13921v1",
+      "inspection": "abstract and version history"
+    }
+  ]
+}

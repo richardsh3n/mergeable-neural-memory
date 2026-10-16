@@ -1,6 +1,6 @@
-# 九项长期记忆课题：审阅导航
+# 十四项长期记忆与 agent 课题：审阅导航
 
-**更新：2026-10-15。**以下是三轮研究提案，不是九篇已完成论文。各方向的文献核查范围和实验状态见原稿。
+**更新：2026-10-16。**以下是四轮研究提案，不是十四篇已完成论文。各方向的文献核查范围和实验状态见原稿。
 
 | 轮次 | 课题 | 主要问题 | 完整提案 |
 |---|---|---|---|
@@ -13,7 +13,12 @@
 | 第三轮 | 可写记忆跨模型迁移 | 模型升级后，旧记忆和新写入还能共同工作吗？ | [英文稿](round-3/01_writable_state_portability.md) |
 | 第三轮 | 保留证据依赖的记忆压缩 | 如何避免把同一消息的多次转述当作独立佐证？ | [英文稿](round-3/02_dependency_preserving_memory.md) |
 | 第三轮 | 记忆损坏后的选择性可靠召回 | 状态坏了一部分，能否回答完好的部分并适当拒答？ | [英文稿](round-3/03_graceful_memory_degradation.md) |
+| 第四轮 | 跨语言更新一致性 | 换语言纠正和查询时，能否保留同一个当前事实？ | [英文稿](round-4/01_crosslingual_updates.md) |
+| 第四轮 | 潜在记忆局部纠正 | 修改一条事实时，能否保留无关信息并更新真正的依赖后果？ | [英文稿](round-4/02_local_latent_correction.md) |
+| 第四轮 | 多模态关联绑定 | 线索变化时，能否仍把人、物与事件绑定到正确对象？ | [英文稿](round-4/03_crossmodal_binding.md) |
+| 第四轮 | 带契约的技能组合 | 工具版本改变后，记忆中的流程能否继续正确组合？ | [英文稿](round-4/04_skill_contract_composition.md) |
+| 第四轮 | 搜索覆盖范围与负向记忆 | 能否记住搜索失败，同时不把未命中误当成不存在？ | [英文稿](round-4/05_coverage_aware_negative_memory.md) |
 
-三轮中文总览：[第一轮](OVERVIEW.zh-CN.md)、[第二轮](round-2/OVERVIEW.zh-CN.md)、[第三轮](round-3/OVERVIEW.zh-CN.md)。
+四轮中文总览：[第一轮](OVERVIEW.zh-CN.md)、[第二轮](round-2/OVERVIEW.zh-CN.md)、[第三轮](round-3/OVERVIEW.zh-CN.md)、[第四轮](round-4/OVERVIEW.zh-CN.md)。
 
-主项目已有合成试验：[v0.1 结果](../docs/PILOT_REPORT.md)、[v0.2 诊断](../experiments/v02/RESULTS.md)。这些历史结果不能作为九项提案已获验证的证据。新实验应在独立协议、冻结输入和新的结果目录中进行。
+主项目已有合成试验：[v0.1 结果](../docs/PILOT_REPORT.md)、[v0.2 诊断](../experiments/v02/RESULTS.md)。这些历史结果不能作为十四项提案已获验证的证据。新实验应在独立协议、冻结输入和新的结果目录中进行。
