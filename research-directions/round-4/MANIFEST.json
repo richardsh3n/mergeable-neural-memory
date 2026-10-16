@@ -31,13 +31,13 @@
     },
     {
       "path": "OVERVIEW.zh-CN.md",
-      "bytes": 3790,
-      "sha256": "83d28bae8024ade9302acaf479c67636ce690d32ca8d0b20f2570f1f7540da97"
+      "bytes": 3793,
+      "sha256": "ed8de7330b77b462fa5667d46b45e097733c6d165157ed567ed9e2379d5bfe9b"
     },
     {
       "path": "README.md",
-      "bytes": 2771,
-      "sha256": "52f8940692aab74b0f89f355fd87d24d60b73176ed3d07fb4b975d03b4dc1eee"
+      "bytes": 2766,
+      "sha256": "98f393a1d45ed43f6ef163d068b8489067992b8b71ee4ba0ac2cc60a4d5f39ba"
     },
     {
       "path": "RELATED_WORK.md",
@@ -53,18 +53,19 @@
   "supporting_files": [
     {
       "repository_path": "README.md",
-      "bytes": 14752,
-      "sha256": "b0d5c09bd6d15cf5c2645eb92ec2c34d5f1f58ab0869b9206b0ea14c39d91027"
+      "bytes": 15041,
+      "sha256": "2c9b7da537bcf80c1eb860ff4625a6ea9154b125ad53a4294252b4750db06bfb"
     },
     {
       "repository_path": "research-directions/README.md",
-      "bytes": 4014,
-      "sha256": "1c432192829b3f64224c2002afcba115656ac4bd9d571f0cbd8fa1331c9bcb86"
+      "bytes": 4546,
+      "sha256": "db694925b5fef706777fafad94ab76636e5b1ae49f3cc4eca1e61414cad9ce59"
     },
     {
       "repository_path": "research-directions/INDEX.zh-CN.md",
-      "bytes": 3010,
-      "sha256": "0b671a6cc26b4a75d795ff4c1f3f19e84d3123a068566c49dd3040c1d559a096"
+      "bytes": 4737,
+      "sha256": "41157a7b2096d1655c57e383a44a9cb2bec3203c566cc9d2c8602a8d59743f40"
     }
-  ]
+  ],
+  "previous_snapshot": "MANIFEST.a69992f.json"
 }

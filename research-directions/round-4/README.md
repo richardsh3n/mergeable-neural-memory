@@ -10,7 +10,7 @@
 | Skills That Compose | Inter-skill contracts under controlled tool-version changes | [04](04_skill_contract_composition.md) |
 | Not Found Is Not False | Reuse of scoped negative search observations under corpus and coverage changes | [05](05_coverage_aware_negative_memory.md) |
 
-Read the [Chinese overview](OVERVIEW.zh-CN.md), [nearest-work boundary](RELATED_WORK.md), [source inventory](SOURCES.json), and [fourteen-topic index](../INDEX.zh-CN.md). Every individual sketch states the question, hypothesis, minimal experiment, strong controls, metrics, and stop rule. No new experiment was executed to prepare this pack.
+Read the [Chinese overview](OVERVIEW.zh-CN.md), [nearest-work boundary](RELATED_WORK.md), [source inventory](SOURCES.json), and [all-topic index](../INDEX.zh-CN.md). Every individual sketch states the question, hypothesis, minimal experiment, strong controls, metrics, and stop rule. No new experiment was executed to prepare this pack.
 
 ## Suggested priority
 

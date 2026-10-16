@@ -1,0 +1,16 @@
+{
+  "status": "Public working proposals; not submitted or externally preregistered",
+  "literature_cutoff": "2026-10-10",
+  "files": {
+    "research-directions/01_counterfactual_state.md": "59e70fdf7a569b5508d21d080f4a1ab3ef4d47f12aa833cb8658e65bf6058bcc",
+    "research-directions/02_decision_value_forgetting.md": "8e1ec0c8189b0dba474c215b28ed3075d6f489517fc7026d677d0e9404ac377b",
+    "research-directions/03_revocable_shared_memory.md": "f3f09913ed735acb7f2af7db114c5af07f7678bb00b1edb8d798de3a1120508b",
+    "research-directions/MASTER_DRAFT.md": "e991833b8cf8a81dbb53526b79aa8ab84db1e7dbd795138bf6f5ff22cef4bb87",
+    "research-directions/OVERVIEW.zh-CN.md": "f18763739ff52b432314551df1ec8dff83738167eea377dbd5ffbd50fcb8100b",
+    "research-directions/README.md": "1c432192829b3f64224c2002afcba115656ac4bd9d571f0cbd8fa1331c9bcb86",
+    "research-directions/RELATED_WORK.md": "37a18a22c6203a8a28ba95eecfabbf98f878808d18c62024537bba792c3e484f"
+  },
+  "snapshot_date": "2026-10-16",
+  "historical_manifest": "MANIFEST.2026-10-10.json",
+  "previous_snapshot": "MANIFEST.2026-10-15.json"
+}

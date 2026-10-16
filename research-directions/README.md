@@ -1,6 +1,6 @@
 # First-round proposals: three research directions for persistent LLM memory
 
-**Status:** working proposals for review. These are not completed papers, registered studies, or claims of novelty. The first-round scan was updated 10 October 2026 and is targeted, not exhaustive. All four proposal rounds are collected on the public `research/v0.3-three-frontiers` branch.
+**Status:** working proposals for review. These are not completed papers, registered studies, or claims of novelty. The first-round scan was updated 10 October 2026 and is targeted, not exhaustive. All five proposal rounds are collected on the public `research/v0.3-three-frontiers` branch.
 
 ## Selection
 
@@ -24,7 +24,11 @@ The set in [`round-3/`](round-3/README.md) studies writable state portability, d
 
 ## Fourth-round sketches
 
-Five focused sketches in [`round-4/`](round-4/README.md) cover cross-lingual updates, local latent-state correction, cross-modal binding, skill-contract composition, and coverage-aware negative search memory. Their targeted primary-source scan is dated 16 October 2026. The [Chinese fourteen-topic index](INDEX.zh-CN.md) links every proposal.
+Five focused sketches in [`round-4/`](round-4/README.md) cover cross-lingual updates, local latent-state correction, cross-modal binding, skill-contract composition, and coverage-aware negative search memory. Their targeted primary-source scan is dated 16 October 2026. The [Chinese all-topic index](INDEX.zh-CN.md) links every proposal.
+
+## Fifth-round sketches
+
+Ten further studies in [`round-5/`](round-5/README.md) cover concurrent consolidation, construction path dependence, discovery exposure timing, project scope, private exceptions, resumable latent reasoning, value-calibrated halting, ontology refinement, delayed feedback credit and longitudinal poisoning recovery. They have a targeted primary-source scan dated 16 October 2026. The [Chinese twenty-four-topic index](INDEX.zh-CN.md) links all five rounds. These are proposals, not additional completed studies.
 
 ## Publication handoff
 

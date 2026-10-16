@@ -1,0 +1,95 @@
+{
+  "status": "research sketches; no new experiments run or registered",
+  "scan_date": "2026-10-16",
+  "snapshot_date": "2026-10-16",
+  "paths_relative_to": "this directory",
+  "files": [
+    {
+      "path": "01_concurrent_consolidation.md",
+      "bytes": 2753,
+      "sha256": "e759952f33a14c81f8f2b00024c1ddf61ab0d777f9b6df11d52c84d8c47763e4"
+    },
+    {
+      "path": "02_consolidation_path_dependence.md",
+      "bytes": 2822,
+      "sha256": "6576848deb58ff56a319a0700c2689332fe012b823e03a5d2059a7081b803cb5"
+    },
+    {
+      "path": "03_exploration_preserving_memory.md",
+      "bytes": 2712,
+      "sha256": "8469306e015d91d33e9ae80fd218465b1c4c636aae78fd3a7f329bb820182077"
+    },
+    {
+      "path": "04_context_scope_switching.md",
+      "bytes": 2764,
+      "sha256": "00daa2ac58c8cb6247967b931daa0f28cf3bf18c7539f71ef73662236bff09bf"
+    },
+    {
+      "path": "05_private_exceptions.md",
+      "bytes": 2815,
+      "sha256": "cd7bffd8c1edda9d171762c5acd08df9d555779e82f4467c7ac0ef03489826d9"
+    },
+    {
+      "path": "06_resumable_latent_reasoning.md",
+      "bytes": 2689,
+      "sha256": "87222a57340438b6348f30a96b5ed6de8b43d5c32b3969e3af76c5c74a662fe3"
+    },
+    {
+      "path": "07_value_calibrated_halting.md",
+      "bytes": 2676,
+      "sha256": "3ffe76f27e0f0468de7fee248c61a3e4ad0783f9d4a113b60945fe4c6b3d1d0c"
+    },
+    {
+      "path": "08_ontology_refinement.md",
+      "bytes": 2856,
+      "sha256": "7ec3e913649edf67df4c35663b1621549c2dec4468594f10ba9d3b8d7f0b73b7"
+    },
+    {
+      "path": "09_delayed_feedback_credit.md",
+      "bytes": 2599,
+      "sha256": "bf85f9c3f98ff1fffb784c7f0079e54292cc157943ca97ece299bfde4068d571"
+    },
+    {
+      "path": "10_poisoning_persistence.md",
+      "bytes": 2940,
+      "sha256": "d50aae3d17caec7bef3279ff4fb9dd2ce5978b642165cd4bde8272615bd02ac1"
+    },
+    {
+      "path": "OVERVIEW.zh-CN.md",
+      "bytes": 4103,
+      "sha256": "8b4f42ca64784a527a5a35868c04b17f0e55825222809d7f0dce35f4349e67d8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3636,
+      "sha256": "2d840a697afcd1ec204e89eddbcba5e6d9c114217da94aa11a73c262b7a91e19"
+    },
+    {
+      "path": "RELATED_WORK.md",
+      "bytes": 4852,
+      "sha256": "4c8bd12244762ed70ae603b44403413452c208559a5964d87617c639a004210d"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 5044,
+      "sha256": "08c0ee68edf605b40ccee7f50fc0b516599d18142610549ef4fe6e1b7bc44e52"
+    }
+  ],
+  "supporting_files": [
+    {
+      "repository_path": "README.md",
+      "bytes": 15041,
+      "sha256": "2c9b7da537bcf80c1eb860ff4625a6ea9154b125ad53a4294252b4750db06bfb"
+    },
+    {
+      "repository_path": "research-directions/README.md",
+      "bytes": 4546,
+      "sha256": "db694925b5fef706777fafad94ab76636e5b1ae49f3cc4eca1e61414cad9ce59"
+    },
+    {
+      "repository_path": "research-directions/INDEX.zh-CN.md",
+      "bytes": 4737,
+      "sha256": "41157a7b2096d1655c57e383a44a9cb2bec3203c566cc9d2c8602a8d59743f40"
+    }
+  ]
+}

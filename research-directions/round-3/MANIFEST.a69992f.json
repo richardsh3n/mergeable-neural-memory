@@ -1,0 +1,66 @@
+{
+  "status": "proposal drafts; no new studies run or registered",
+  "scan_date": "2026-10-15",
+  "paths_relative_to": "this directory",
+  "files": [
+    {
+      "path": "01_writable_state_portability.md",
+      "bytes": 7354,
+      "sha256": "deecf4c56dc3da0648300c726479c68846758d6a2237518e052b454509953ee7"
+    },
+    {
+      "path": "02_dependency_preserving_memory.md",
+      "bytes": 7137,
+      "sha256": "6a07e276d313306242138922b8934d5da7df41b455b1858374c405b74b1ca094"
+    },
+    {
+      "path": "03_graceful_memory_degradation.md",
+      "bytes": 7283,
+      "sha256": "bc8d941e241f0f1a29e0c454016eb950d892a3712b59d98facbf91af5d67e99f"
+    },
+    {
+      "path": "MASTER_DRAFT.md",
+      "bytes": 5430,
+      "sha256": "c27d3f980c409d28047fe000f4ea9b8baa634f1c79b2faa834358908c5ff85a1"
+    },
+    {
+      "path": "OVERVIEW.zh-CN.md",
+      "bytes": 4646,
+      "sha256": "a96a95e94a5e60b25f0a20a17aa764d55800dc294eb357eda1b230314ca2e31b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1928,
+      "sha256": "5609004cd1becd261b6d1967d31cfd81d3cc8229b1b3a99aa894868097d91a6d"
+    },
+    {
+      "path": "RELATED_WORK.md",
+      "bytes": 3482,
+      "sha256": "8d10277bf7b4a9117abefdae13178710bc65e555f8cdaaa73f152e3da1646497"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 2411,
+      "sha256": "451badd63c09c20348b31585650df769f16c5dbebfdca2af7389d53a8e838c04"
+    }
+  ],
+  "supporting_files": [
+    {
+      "repository_path": "research-directions/INDEX.zh-CN.md",
+      "bytes": 3010,
+      "sha256": "0b671a6cc26b4a75d795ff4c1f3f19e84d3123a068566c49dd3040c1d559a096"
+    },
+    {
+      "repository_path": "README.md",
+      "bytes": 14752,
+      "sha256": "b0d5c09bd6d15cf5c2645eb92ec2c34d5f1f58ab0869b9206b0ea14c39d91027"
+    },
+    {
+      "repository_path": "research-directions/README.md",
+      "bytes": 4014,
+      "sha256": "1c432192829b3f64224c2002afcba115656ac4bd9d571f0cbd8fa1331c9bcb86"
+    }
+  ],
+  "snapshot_date": "2026-10-16",
+  "previous_snapshot": "MANIFEST.2026-10-15.json"
+}

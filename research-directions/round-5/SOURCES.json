@@ -1,0 +1,112 @@
+{
+  "checked_date": "2026-10-16",
+  "review_scope": "Targeted primary-entry/abstract and selected official-documentation scan; not systematic review, complete full-text audit, or reproduction. Proposed distinctions are study choices, not certified literature absences.",
+  "version_policy": "Coconut v4 was explicitly confirmed. Other unversioned links identify the primary entry observed on the check date, not an immutable full-text snapshot.",
+  "sources": [
+    {
+      "title": "MemTxn: A Transaction Boundary for Source-Supported Updates and Complete-State Recovery in Agent Memory",
+      "url": "https://arxiv.org/abs/2607.27834",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "BEGIN AI TRANSACTION: Semantic Isolation for Durable AI Workflows",
+      "url": "https://arxiv.org/abs/2608.05412",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "RoutePrism: Tracing Construction Order Effects in Agent Memory",
+      "url": "https://arxiv.org/abs/2609.34160",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Useful Memories Become Faulty When Continuously Updated by LLMs",
+      "url": "https://arxiv.org/abs/2605.12978",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Demystify the Role of Memory in Machine Learning Engineering Agents",
+      "url": "https://aclanthology.org/2026.findings-acl.525/",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Controllable Memory Usage: Balancing Anchoring and Innovation in Long-Term Human–Agent Interaction",
+      "url": "https://aclanthology.org/2026.acl-long.670/",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "PersistBench: When Should Long-Term Memories Be Forgotten by LLMs?",
+      "url": "https://arxiv.org/abs/2602.01146",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "When Personal Memory Has No Single Answer: Evaluating LLM Agents under Irreducible Conflict",
+      "url": "https://arxiv.org/abs/2608.13921",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Taming Knowledge Conflicts in Language Models",
+      "url": "https://arxiv.org/abs/2503.10996",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Beyond Black-Box Interventions: Latent Probing for Faithful Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2510.12460",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Training Large Language Models to Reason in a Continuous Latent Space",
+      "url": "https://arxiv.org/abs/2412.06769v4",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach",
+      "url": "https://arxiv.org/abs/2502.05171",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Learning When to Stop: Adaptive Latent Reasoning via Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2511.21581",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Adaptive Depth in Looped Transformers: Diagnosing Learned Halting Gates and Trajectory Readouts",
+      "url": "https://arxiv.org/abs/2607.20519",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "MindMemOS: A Portable and Self-Evolving Memory Operating Layer for AI Agents",
+      "url": "https://arxiv.org/abs/2608.12428",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Structured metadata for long-term memories — Amazon Bedrock AgentCore",
+      "url": "https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/long-term-memory-metadata.html",
+      "inspection": "official schema-evolution documentation"
+    },
+    {
+      "title": "Self-Evolving Time-Series Forecasting Agents with Episodic Memory and Online Policy Learning",
+      "url": "https://arxiv.org/abs/2609.32689",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Skill-Pro: Learning Reusable Skills from Experience via Non-Parametric PPO for LLM Agents",
+      "url": "https://arxiv.org/abs/2602.01869",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "MemoryGraft: Persistent Compromise of LLM Agents via Poisoned Experience Retrieval",
+      "url": "https://arxiv.org/abs/2512.16962",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Memory Injection Attacks on LLM Agents via Query-Only Interaction",
+      "url": "https://arxiv.org/abs/2503.03704",
+      "inspection": "primary entry, title and abstract"
+    },
+    {
+      "title": "Memory Poisoning Attack and Defense on Memory Based LLM-Agents",
+      "url": "https://arxiv.org/abs/2601.05504",
+      "inspection": "primary entry, title and abstract"
+    }
+  ]
+}
