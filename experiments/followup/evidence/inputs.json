@@ -1,0 +1,39 @@
+{
+  "scope": "local pre-run input record for an exploratory follow-up",
+  "created_utc": "2026-11-18T04:05:36.543175+00:00",
+  "config_sha256": "cb33b5b22a7cba5b9346066fb88e55d50454f87cc85989b74b38efb47d0a6d7d",
+  "versions": {
+    "python": "3.10.11",
+    "machine": "arm64",
+    "system": "Darwin",
+    "numpy": "2.2.6",
+    "torch": "2.14.1"
+  },
+  "input_hashes": {
+    "configs/pilot.json": "bf3ddbb08f19dbe0a08adf9811be9eb10a823528f3161eac4b08e18af1c7a38e",
+    "docs/PREREGISTRATION.md": "3415a1c8e60c2f5f3b83e5069feb445ed7fc6a4cb920def9d9e00d6416c616c4",
+    "requirements.lock.txt": "83192698a9da7d8bf8dffb9ab5632c305cff4ef612e29073a944885521c8c7fe",
+    "scripts/freeze.py": "cf787480fd2829a5e1d2600340f515d79e7f46e00fd395531c21acbff618de64",
+    "scripts/run_locked.py": "ac73107a19aea3a2dd99afd17be3188b57fb45e5cb6b5e7758bcb170ad0a60f2",
+    "src/merge_memory.py": "6a22f25e6b7ce617bc4a50b8f1903ebff4b50fda09975d7159aeae0dcfc8c7a4",
+    "src/theory.py": "06a259a2862daafec5a91818285fe9119378fd74ac4e71ae6ca3ed71e85ba81c",
+    "tests/test_memory.py": "5f0665d8196ae8b0ff896061c1da6b9d7e017c3d8a6239ee363eaceaf6729d29",
+    "tests/test_theory.py": "88b42af60bd138395cf50a96879656ec49f36b8fb9346ba8db75ecc99b0e46cd",
+    "results/pilot/checkpoint-seed-11.pt": "e56b0a0a5391ca90fc1f768fdca5ee2a77876f56762ea3e2fd21ec972b4957d9",
+    "results/pilot/checkpoint-seed-23.pt": "7f645e67b39876e1dcb5e68a4ea67bae3dedcca73782c67585757e45818fd618",
+    "results/pilot/checkpoint-seed-37.pt": "26b324c22e12ed9045293e5b194c567983c528f5a81fa216f784dcc2a1434861",
+    "results/pilot/metrics.json": "23f407f2f8cb4bf3c99296eddf2c1eb3afce603eeccd67862ada5236a377dfec",
+    "results/pilot/predictions.csv.gz": "19d5768ed478fb17bbb4280838bfa4805a22fbdfd05851a5da6e2dd3ccb37067",
+    "results/pilot/training-trace.json": "67872ed0fb264570f0fb22b9fb9b480ba730626ec36720b22546121a3a56d7c2",
+    "results/freeze.json": "89ffe6f9fe066ed26bbb6a3b4d84b05633d59e9aca9ef4cdc91a9e242e16e097",
+    "results/pilot/artifact_hashes.json": "81bbae151ad53e6c020f2d25efc59b04b685fefcd04d42f34401a2d50d9ff788",
+    "experiments/followup/archived.py": "2c4c36d76d92c5a5ffef73a0ef0cec122e6f7e3af05bd06b72866b7c2226568d",
+    "experiments/followup/capacity.py": "bc9bf05b47f20a9ba12f84679ef64905b6c60e126445db719c44958ddb156f42",
+    "experiments/followup/metrics.py": "03b75a0b61dbe059103a8a6bf521cf36bfdb0ed8d730ee3e7e311290109f8e75",
+    "experiments/followup/packed_table.py": "b2d0f7c4e1f49455ef688d551ed172d2b1efb3908d1b2cee285ba1a7d0a00ef0",
+    "experiments/followup/run.py": "64940f9147661ba250f7d0278fe6e4cd6dc81ac237dc357b03fe4ee1d82b0c0f",
+    "experiments/followup/worlds.py": "e76797bc2b7707e10cde7e457e6706c7ec8dfcfcb2acbf27e47376e889ffeb04",
+    "docs/followup/PROTOCOL.md": "e2a18b0c6ecea45b37009ef0141152d7ba48f28f1fc05225c4c0277c539d183b",
+    "src/run_io.py": "601360d11e0d3dc359a67856d884652fc99dc12286e0e829911c59460e8c401a"
+  }
+}

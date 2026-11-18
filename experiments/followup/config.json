@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "archive_seeds": [11, 23, 37],
+  "threads": 1,
+  "continuation": {
+    "probe_train_seed": 302001,
+    "evaluation_seed": 302002,
+    "control_seed": 302003,
+    "train_pairs_per_key": 96,
+    "test_pairs_per_key": 48,
+    "ridge_penalty": 1.0
+  },
+  "three_party": {
+    "evaluation_seed": 303001,
+    "overlap_levels": [0.0, 0.5],
+    "worlds_per_condition": 128,
+    "redeliveries": [1, 2, 4, 8]
+  },
+  "capacity": {
+    "n_entities": 12,
+    "relation_counts": [2, 8],
+    "state_dims": [4, 12, 24],
+    "n_slots": 2,
+    "fit_seeds": [101, 307],
+    "evaluation_seed": 304001,
+    "worlds_per_overlap": 128,
+    "overlap_levels": [0.0, 0.5],
+    "steps": 240,
+    "batch_worlds": 16,
+    "ablation": {"n_relations": 2, "state_dim": 12, "steps": 160}
+  }
+}
